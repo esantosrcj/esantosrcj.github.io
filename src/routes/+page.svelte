@@ -7,7 +7,9 @@
 </svelte:head>
 
 <!-- Hero Section -->
-<div class="hero min-h-100 bg-linear-to-br from-primary to-secondary">
+<div
+	class="hero hidden min-h-100 bg-linear-to-br from-primary to-secondary lg:flex lg:items-center lg:justify-center"
+>
 	<div class="hero-content text-center text-primary-content">
 		<div class="max-w-md">
 			<h1 class="mb-4 text-5xl font-bold">Eddie Santos</h1>
@@ -37,10 +39,7 @@
 					/>
 				</svg>
 			</div>
-			<ul
-				tabindex="0"
-				class="dropdown-content menu z-[1] mt-3 w-52 menu-sm rounded-box bg-base-100 p-2 shadow"
-			>
+			<ul class="dropdown-content menu z-1 mt-3 w-52 menu-sm rounded-box bg-base-100 p-2 shadow">
 				<li><a href="#about">About</a></li>
 				<li><a href="#skills">Skills</a></li>
 				<li><a href="#projects">Projects</a></li>
@@ -49,6 +48,8 @@
 			</ul>
 		</div>
 	</div>
+	<!-- Desktop navbar-start (empty for proper centering) -->
+	<div class="navbar-start hidden lg:block"></div>
 	<!-- Desktop menu -->
 	<div class="navbar-center hidden lg:flex">
 		<ul class="menu menu-horizontal gap-2 px-1">
@@ -59,6 +60,8 @@
 			<li><a href="#contact" class="btn btn-ghost">Contact</a></li>
 		</ul>
 	</div>
+	<!-- Desktop navbar-end (empty for proper centering) -->
+	<div class="navbar-end hidden lg:block"></div>
 	<!-- Mobile title -->
 	<div class="navbar-center lg:hidden">
 		<span class="text-xl font-bold">Eddie Santos</span>
