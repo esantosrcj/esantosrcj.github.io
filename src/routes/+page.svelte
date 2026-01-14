@@ -53,11 +53,11 @@
 	<!-- Desktop menu -->
 	<div class="navbar-center hidden lg:flex">
 		<ul class="menu menu-horizontal gap-2 px-1">
-			<li><a href="#about" class="btn btn-ghost">About</a></li>
-			<li><a href="#skills" class="btn btn-ghost">Skills</a></li>
-			<li><a href="#projects" class="btn btn-ghost">Projects</a></li>
-			<li><a href="#experience" class="btn btn-ghost">Experience</a></li>
-			<li><a href="#contact" class="btn btn-ghost">Contact</a></li>
+			<li><a href="#about" class="btn btn-outline btn-primary">About</a></li>
+			<li><a href="#skills" class="btn btn-outline btn-primary">Skills</a></li>
+			<li><a href="#projects" class="btn btn-outline btn-primary">Projects</a></li>
+			<li><a href="#experience" class="btn btn-outline btn-primary">Experience</a></li>
+			<li><a href="#contact" class="btn btn-outline btn-primary">Contact</a></li>
 		</ul>
 	</div>
 	<!-- Desktop navbar-end (empty for proper centering) -->
@@ -69,7 +69,7 @@
 </div>
 
 <!-- Main Content -->
-<div class="mx-auto max-w-7xl space-y-8 bg-base-200 px-4 py-12">
+<div class="mx-auto max-w-7xl space-y-8 bg-base-100 px-4 py-12">
 	<!-- About Section -->
 	<section id="about" class="card bg-base-100 shadow-xl card-border">
 		<div class="card-body">
