@@ -191,8 +191,11 @@
 			<div class="space-y-6">
 				<div class="border-l-4 border-primary pl-6">
 					<h3 class="mb-2 text-2xl font-bold text-base-content">Fantasy Sports Draft Board</h3>
-					<div class="mb-3 badge badge-outline badge-primary">
-						Svelte • SvelteKit • Tailwind CSS • CI/CD
+					<div class="mb-3 flex flex-wrap gap-2">
+						<span class="badge badge-outline badge-primary">Svelte</span>
+						<span class="badge badge-outline badge-primary">SvelteKit</span>
+						<span class="badge badge-outline badge-primary">Tailwind CSS</span>
+						<span class="badge badge-outline badge-primary">CI/CD</span>
 					</div>
 					<p class="mb-4 text-base-content/70">
 						Built a fantasy sports draft board application with real-time updates and seamless user
@@ -206,8 +209,12 @@
 
 				<div class="border-l-4 border-primary pl-6">
 					<h3 class="mb-2 text-2xl font-bold text-base-content">Daily Workout Logger</h3>
-					<div class="mb-3 badge badge-outline badge-primary">
-						Svelte • Python • PocketBase • FastAPI • Docker
+					<div class="mb-3 flex flex-wrap gap-2">
+						<span class="badge badge-outline badge-primary">Svelte</span>
+						<span class="badge badge-outline badge-primary">Python</span>
+						<span class="badge badge-outline badge-primary">PocketBase</span>
+						<span class="badge badge-outline badge-primary">FastAPI</span>
+						<span class="badge badge-outline badge-primary">Docker</span>
 					</div>
 					<p class="mb-4 text-base-content/70">
 						Developed a daily workout logging application with real-time data synchronization and
