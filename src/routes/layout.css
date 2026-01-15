@@ -2,5 +2,5 @@
 @plugin 'daisyui' {
 	themes:
 		bumblebee --default,
-		night --prefersdark;
+		business --prefersdark;
 }
