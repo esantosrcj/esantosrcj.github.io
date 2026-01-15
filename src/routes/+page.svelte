@@ -67,7 +67,7 @@
 
 				<h3 class="mb-3 text-xl font-bold">{category}</h3>
 				<ul class="space-y-2">
-					{#each items as item}
+					{#each items as item (item)}
 						{@render listItem(item)}
 					{/each}
 				</ul>
@@ -126,7 +126,7 @@
 
 				<h3 class="mb-2 text-2xl font-bold">{name}</h3>
 				<div class="mb-4 flex flex-wrap gap-2">
-					{#each techStack as item}
+					{#each techStack as item (item)}
 						{@render listItem(item)}
 					{/each}
 				</div>
