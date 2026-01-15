@@ -35,13 +35,15 @@
 			<h2 class="mb-6 card-title border-b-4 border-primary pb-2 text-3xl text-primary">About Me</h2>
 			<p class="mb-4">
 				Experienced software engineer with 9+ years of expertise in building scalable web
-				applications and distributed systems. Passionate about clean code, system design, and
-				mentoring junior developers. Proven track record of delivering high-impact solutions in
-				fast-paced environments.
+				applications and distributed systems across collegiate athletics, healthcare, and EdTech
+				industries. Expert in full-stack development with proven ability to modernize legacy
+				systems, optimize performance, and collaborate with cross-functional teams to deliver
+				high-quality solutions.
 			</p>
 			<p>
-				Currently focusing on cloud-native architectures, microservices, and DevOps practices.
-				Always eager to learn new technologies and solve complex problems.
+				Actively staying current with the latest developments, trends, and breakthroughs in
+				artificial intelligence, including new models, tools, and industry best practices. Always
+				eager to learn new technologies and solve complex problems.
 			</p>
 		</div>
 	</section>
@@ -141,9 +143,9 @@
 					{@render project(
 						'Fantasy Sports Draft Board',
 						['Svelte', 'SvelteKit', 'Tailwind CSS', 'CI/CD'],
-						'Built a fantasy sports draft board application with real-time updates and seamless user experience.',
-						'#live',
-						'#github'
+						'Built a fantasy sports draft board application designed to enhance in-person draft events by providing an interactive, engaging, and visually intuitive drafting experience for participants.',
+						'https://fantyboard.app',
+						'https://github.com/esantosrcj/fantyboard'
 					)}
 				</div>
 
@@ -151,9 +153,9 @@
 					{@render project(
 						'Daily Workout Logger',
 						['Svelte', 'SvelteKit', 'Python', 'FastAPI', 'PocketBase', 'Docker'],
-						'Developed a daily workout logging application with real-time data synchronization and personalized analytics.',
-						'#live',
-						'#github'
+						'Developed a daily workout logging application with structured workout entries and progress tracking to help users record exercises, sets, and reps while maintaining historical workout data.',
+						'https://myfitwerk.com/',
+						'https://github.com/esantosrcj/workout-notepad'
 					)}
 				</div>
 			</div>
