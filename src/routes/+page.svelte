@@ -31,7 +31,7 @@
 <!-- Main Content -->
 <div class="mx-auto max-w-7xl space-y-8 px-4 py-12">
 	<!-- About Section -->
-	<section id="about" class="card border-base-300 bg-base-100 shadow-xl">
+	<section id="about" class="card scroll-mt-20 border-base-300 bg-base-100 shadow-xl">
 		<div class="card-body">
 			<h2 class="mb-6 card-title border-b-4 border-primary pb-2 text-3xl text-primary">About Me</h2>
 			<p class="mb-4">
@@ -50,7 +50,7 @@
 	</section>
 
 	<!-- Skills Section -->
-	<section id="skills" class="card border-base-300 bg-base-100 shadow-xl">
+	<section id="skills" class="card scroll-mt-20 border-base-300 bg-base-100 shadow-xl">
 		<div class="card-body">
 			<h2 class="mb-6 card-title border-b-4 border-primary pb-2 text-3xl text-primary">
 				Technical Skills
@@ -106,7 +106,7 @@
 	</section>
 
 	<!-- Projects Section -->
-	<section id="projects" class="card border-base-300 bg-base-100 shadow-xl">
+	<section id="projects" class="card scroll-mt-20 border-base-300 bg-base-100 shadow-xl">
 		<div class="card-body">
 			<h2 class="mb-6 card-title border-b-4 border-primary pb-2 text-3xl text-primary">
 				Featured Projects
@@ -164,7 +164,7 @@
 	</section>
 
 	<!-- Experience Section -->
-	<section id="experience" class="card border-base-300 bg-base-100 shadow-xl">
+	<section id="experience" class="card scroll-mt-20 border-base-300 bg-base-100 shadow-xl">
 		<div class="card-body">
 			<h2 class="mb-6 card-title border-b-4 border-primary pb-2 text-3xl text-primary">
 				Work Experience
@@ -244,7 +244,7 @@
 	</section>
 
 	<!-- Contact Section -->
-	<section id="contact" class="card border-base-300 bg-base-100 shadow-xl">
+	<section id="contact" class="card scroll-mt-20 border-base-300 bg-base-100 shadow-xl">
 		<div class="card-body">
 			<h2 class="mb-6 card-title border-b-4 border-primary pb-2 text-3xl text-primary">
 				Get In Touch
