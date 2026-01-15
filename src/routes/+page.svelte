@@ -1,10 +1,11 @@
 <script lang="ts">
 	import Navbar from './Navbar.svelte';
 	import profileImage from '$lib/assets/profile-me.jpg';
+	import { ChevronRight, Github, Linkedin } from '@lucide/svelte';
 </script>
 
 <svelte:head>
-	<title>Eddie Santos - Software Engineer</title>
+	<title>Eddie Santos - Senior Software Engineer</title>
 	<meta
 		name="description"
 		content="Senior Software Engineer with 9+ years of expertise in building scalable web applications and distributed systems."
@@ -19,7 +20,7 @@
 		<img src={profileImage} alt="Eddie Santos" class="mask w-64 mask-squircle shadow-2xl" />
 		<div class="text-center lg:text-left">
 			<h1 class="mb-4 text-5xl font-bold">Eddie Santos</h1>
-			<p class="text-xl opacity-90">Senior Software Engineer</p>
+			<p class="text-lg opacity-90">Building reliable solutions behind great user experiences</p>
 		</div>
 	</div>
 </div>
@@ -41,9 +42,9 @@
 				high-quality solutions.
 			</p>
 			<p>
-				Actively staying current with the latest developments, trends, and breakthroughs in
-				artificial intelligence, including new models, tools, and industry best practices. Always
-				eager to learn new technologies and solve complex problems.
+				Currently focused on mobile app development while staying up to date with the latest
+				advancements in artificial intelligence, including new models, tools, and industry best
+				practices. Always eager to learn new technologies and tackle complex problems.
 			</p>
 		</div>
 	</section>
@@ -59,12 +60,12 @@
 			{#snippet skills(category: string, items: string[])}
 				{#snippet listItem(item: string)}
 					<li class="flex items-center gap-2">
-						<span class="font-bold text-primary">▹</span>
+						<ChevronRight class="h-4 w-4 text-primary" />
 						<span>{item}</span>
 					</li>
 				{/snippet}
 
-				<h3 class="mb-3 text-xl font-bold text-secondary">{category}</h3>
+				<h3 class="mb-3 text-xl font-bold">{category}</h3>
 				<ul class="space-y-2">
 					{#each items as item}
 						{@render listItem(item)}
@@ -124,7 +125,7 @@
 				{/snippet}
 
 				<h3 class="mb-2 text-2xl font-bold">{name}</h3>
-				<div class="mb-3 flex flex-wrap gap-2">
+				<div class="mb-4 flex flex-wrap gap-2">
 					{#each techStack as item}
 						{@render listItem(item)}
 					{/each}
@@ -138,7 +139,7 @@
 				</div>
 			{/snippet}
 
-			<div class="space-y-6">
+			<div class="space-y-8">
 				<div class="border-l-4 border-primary pl-6">
 					{@render project(
 						'Fantasy Sports Draft Board',
@@ -152,7 +153,7 @@
 				<div class="border-l-4 border-primary pl-6">
 					{@render project(
 						'Daily Workout Logger',
-						['Svelte', 'SvelteKit', 'Python', 'FastAPI', 'PocketBase', 'Docker'],
+						['Svelte', 'SvelteKit', 'Tailwind CSS', 'PocketBase'],
 						'Developed a daily workout logging application with structured workout entries and progress tracking to help users record exercises, sets, and reps while maintaining historical workout data.',
 						'https://myfitwerk.com/',
 						'https://github.com/esantosrcj/workout-notepad'
@@ -169,14 +170,72 @@
 				Work Experience
 			</h2>
 			<div class="space-y-6">
-				<div class="border-b border-base-300 pb-6 last:border-0">
-					<div class="mb-1 text-lg font-semibold text-primary">Software Engineer</div>
-					<h3 class="text-xl font-bold">PrestoSports</h3>
+				<div class="border-b border-secondary pb-6 last:border-0">
+					<div class="mb-1 text-lg font-semibold">Software Engineer</div>
+					<h3 class="text-xl font-bold text-info">PrestoSports</h3>
 					<div class="mb-3 text-sm text-base-content/70">August 2021 - November 2025</div>
+					<p class="mb-3 text-base-content/70">
+						Worked as a full-stack engineer on large-scale sports technology platforms supporting
+						athletic organizations nationwide.
+					</p>
+					<ul class="list-inside list-disc space-y-2 text-base-content/70">
+						<li>Assisted modernization efforts from a legacy CMS toward microservices</li>
+						<li>
+							Built revenue-generating features with Stripe integrations and redesigned product
+							packaging system
+						</li>
+						<li>
+							Designed and delivered systems for live event monitoring, geo-blocked content
+							delivery, and athlete record management
+						</li>
+						<li>
+							Acted as a technical leader through code reviews, mentorship, and maintaining
+							engineering standards
+						</li>
+					</ul>
+				</div>
+
+				<div class="border-b border-secondary pb-6 last:border-0">
+					<div class="mb-1 text-lg font-semibold">Developer II</div>
+					<h3 class="text-xl font-bold text-info">Blue Cross & Blue Shield of Kansas</h3>
+					<div class="mb-3 text-sm text-base-content/70">August 2020 - July 2021</div>
+					<p class="mb-3 text-base-content/70">
+						Focused on backend optimization for healthcare claims systems serving nearly one million
+						members.
+					</p>
 					<ul class="list-inside list-disc space-y-2 text-base-content/70">
 						<li>
-							Led full-stack development for key features, enhancing user engagement and system
-							performance
+							Improved validation logic and batch-processing workflows for a high-volume claims
+							platform processing over 17 million claims annually, reducing errors and manual
+							intervention
+						</li>
+						<li>
+							Played a key role in guiding the organization’s transition from SVN to Git,
+							modernizing development workflows
+						</li>
+					</ul>
+				</div>
+
+				<div class="border-b border-secondary pb-6 last:border-0">
+					<div class="mb-1 text-lg font-semibold">Software Engineer</div>
+					<h3 class="text-xl font-bold text-info">PowerSchool Group LLC</h3>
+					<div class="mb-3 text-sm text-base-content/70">September 2016 - April 2020</div>
+					<p class="mb-3 text-base-content/70">
+						Contributed to enterprise-scale K–12 education platforms, including absence management
+						and applicant tracking systems used by hundreds of school districts.
+					</p>
+					<ul class="list-inside list-disc space-y-2 text-base-content/70">
+						<li>
+							Designed and implemented REST APIs for mobile applications, enhancing user experience
+							and functionality
+						</li>
+						<li>
+							Led modernization of an IVR system using a scalable, message-driven architecture,
+							improving system reliability and performance
+						</li>
+						<li>
+							Supported CI/CD and testing practices, contributing to faster deployment cycles and
+							improved code quality
 						</li>
 					</ul>
 				</div>
@@ -192,27 +251,23 @@
 			</h2>
 			<div class="grid grid-cols-2 gap-3 sm:flex sm:flex-wrap sm:justify-center sm:gap-4">
 				<a
-					href="mailto:your.email@example.com"
-					class="btn btn-outline btn-sm btn-secondary sm:btn-md">Email</a
-				>
-				<a
-					href="https://github.com/yourusername"
+					href="https://github.com/esantosrcj"
 					target="_blank"
 					rel="noopener noreferrer"
-					class="btn btn-outline btn-sm btn-secondary sm:btn-md">GitHub</a
+					class="btn btn-outline btn-sm btn-secondary sm:btn-md"
 				>
+					<Github />
+					GitHub
+				</a>
 				<a
-					href="https://linkedin.com/in/yourprofile"
+					href="https://www.linkedin.com/in/santos-eddie/"
 					target="_blank"
 					rel="noopener noreferrer"
-					class="btn btn-outline btn-sm btn-secondary sm:btn-md">LinkedIn</a
+					class="btn btn-outline btn-sm btn-secondary sm:btn-md"
 				>
-				<a
-					href="https://twitter.com/yourhandle"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="btn btn-outline btn-sm btn-secondary sm:btn-md">Twitter</a
-				>
+					<Linkedin />
+					LinkedIn
+				</a>
 			</div>
 		</div>
 	</section>
