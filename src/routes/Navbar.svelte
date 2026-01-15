@@ -18,7 +18,7 @@
 					/>
 				</svg>
 			</div>
-			<ul class="dropdown-content menu z-1 mt-3 w-52 menu-sm rounded-box bg-base-100 p-2 shadow">
+			<ul class="dropdown-content menu z-1 mt-3 w-52 rounded-box bg-base-100 p-2 shadow">
 				<li><a href="#about">About</a></li>
 				<li><a href="#skills">Skills</a></li>
 				<li><a href="#projects">Projects</a></li>

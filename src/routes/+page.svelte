@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Navbar from './Navbar.svelte';
+	import profileImage from '$lib/assets/profile-me.jpg';
 </script>
 
 <svelte:head>
@@ -14,8 +15,9 @@
 <div
 	class="hero hidden min-h-100 bg-linear-to-br from-primary to-secondary lg:flex lg:items-center lg:justify-center"
 >
-	<div class="hero-content text-center text-primary-content">
-		<div class="max-w-md">
+	<div class="hero-content flex-col gap-6 text-primary-content lg:flex-row">
+		<img src={profileImage} alt="Eddie Santos" class="mask w-64 mask-squircle shadow-2xl" />
+		<div class="text-center lg:text-left">
 			<h1 class="mb-4 text-5xl font-bold">Eddie Santos</h1>
 			<p class="text-xl opacity-90">Senior Software Engineer</p>
 		</div>
