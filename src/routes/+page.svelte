@@ -20,7 +20,7 @@
 		<img src={profileImage} alt="Eddie Santos" class="mask w-64 mask-squircle shadow-2xl" />
 		<div class="text-center lg:text-left">
 			<h1 class="mb-4 text-5xl font-bold">Eddie Santos</h1>
-			<p class="text-lg opacity-90">Building reliable solutions behind great user experiences</p>
+			<p class="opacity-90">Building reliable solutions behind great user experiences</p>
 		</div>
 	</div>
 </div>
@@ -210,7 +210,7 @@
 							intervention
 						</li>
 						<li>
-							Played a key role in guiding the organization’s transition from SVN to Git,
+							Played a key role in guiding the organization's transition from SVN to Git,
 							modernizing development workflows
 						</li>
 					</ul>
@@ -221,7 +221,7 @@
 					<h3 class="text-xl font-bold text-info">PowerSchool Group LLC</h3>
 					<div class="mb-3 text-sm text-base-content/70">September 2016 - April 2020</div>
 					<p class="mb-3 text-base-content/70">
-						Contributed to enterprise-scale K–12 education platforms, including absence management
+						Contributed to enterprise-scale K-12 education platforms, including absence management
 						and applicant tracking systems used by hundreds of school districts.
 					</p>
 					<ul class="list-inside list-disc space-y-2 text-base-content/70">
