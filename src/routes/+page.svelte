@@ -171,7 +171,7 @@
 			</h2>
 			<div class="space-y-6">
 				<div class="border-b border-secondary pb-6 last:border-0">
-					<div class="mb-1 text-lg font-semibold">Software Engineer</div>
+					<div class="mb-1 text-lg font-semibold">Senior Software Engineer</div>
 					<h3 class="text-xl font-bold text-info">PrestoSports</h3>
 					<div class="mb-3 text-sm text-base-content/70">August 2021 - November 2025</div>
 					<p class="mb-3 text-base-content/70">
