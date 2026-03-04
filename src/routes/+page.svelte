@@ -134,12 +134,24 @@
 					{description}
 				</p>
 				<div class="flex flex-wrap gap-3">
-					<a href={liveLink} class="btn btn-primary">Live Demo</a>
-					<a href={githubLink} class="btn btn-outline btn-secondary">GitHub</a>
+					<a href={liveLink} target="_blank" class="btn btn-primary">Live Demo</a>
+					{#if githubLink}
+						<a href={githubLink} target="_blank" class="btn btn-outline btn-secondary">GitHub</a>
+					{/if}
 				</div>
 			{/snippet}
 
 			<div class="space-y-8">
+				<div class="border-l-4 border-primary pl-6">
+					{@render project(
+						'E-Commerce Admin Dashboard',
+						['Svelte', 'SvelteKit', 'DaisyUI', 'FastAPI', 'Auth', 'Stripe API', 'SQLite'],
+						'Built a multi-tenant admin dashboard for managing e-commerce sites, enabling store owners to oversee products, orders, and inventory from a centralized interface.',
+						'https://hooyaa-admin.com/',
+						''
+					)}
+				</div>
+
 				<div class="border-l-4 border-primary pl-6">
 					{@render project(
 						'Fantasy Sports Draft Board',
